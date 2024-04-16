@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        width: 500px;
+        font-size: 30px;
+        margin: auto;
+        text-align: center;
+    }
+    .box{
+        width: 300px;
+        height: 300px;
+        border: 2px solid red;
+        margin: 40px auto;
+        position: relative;
+    }
+    img{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        transition: 1s;
+        border: 2px solid red;
+        box-sizing: border-box;
+
+    }
+    .box:hover img{
+        left: -300px;
+    }
+    p{
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        font-size: 20px;
+        text-align: center;
+        position: absolute;
+        margin: 0px;
+        top: 0px;
+        left: 0px;
+    }
+</style>
+<body>
+    <h1>Practice of position see effect on hover</h1>
+    <div class="box">
+        <img src="https://picsum.photos/300/300" alt="">
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente sint qui, laboriosam aspernatur expedita aut vitae, saepe cum voluptate nemo error tenetur ipsa quaerat voluptatum ipsam! Reprehenderit reiciendis sit quam provident! Consectetur fuga nostrum quas commodi Fugit mollitia aut voluptate quos itaque ullam nihil. Sunt, maiores rerum. Nisi delectus iure reiciendis consectetur ad harum fuga temporibus repudiandae.
+        </p>
+    </div>
+</body>
+</html>
